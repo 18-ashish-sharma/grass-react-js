@@ -15,6 +15,11 @@ export default function Add() {
         const ans = Number(num1) - Number(num2);
         setRes(ans)
     }
+    // if (res) {
+    //     return res
+    // } else {
+    //     return ' no'
+    // }
     return(
         <>
         <h1>Addition</h1>
@@ -41,7 +46,8 @@ export default function Add() {
         
         <br />
         <br />
-        <h1>Result is: {res}</h1>
+        {/* tertiary operators */}
+        <h1>Result is: {res ? res : 'No results yet'}</h1>
         <br />
         <br />
         <h2>Num 1 value is: {num1}</h2>
