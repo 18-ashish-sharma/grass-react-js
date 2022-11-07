@@ -5,6 +5,8 @@ function App() {
   return (
     <div className="App">
       hello world
+      <br />
+      <button>Click</button>
     </div>
   );
 }
